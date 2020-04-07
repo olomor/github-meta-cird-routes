@@ -1,50 +1,27 @@
-ip route add 13.114.40.0/24 via 192.168.10.1
-ip route add 13.229.188.0/24 via 192.168.10.1
-ip route add 13.234.176.0/24 via 192.168.10.1
-ip route add 13.234.210.0/24 via 192.168.10.1
-ip route add 13.236.229.0/24 via 192.168.10.1
-ip route add 13.237.44.0/24 via 192.168.10.1
-ip route add 13.250.177.0/24 via 192.168.10.1
-ip route add 140.82.112.0/24 via 192.168.10.1
-ip route add 15.164.81.0/24 via 192.168.10.1
-ip route add 18.194.104.0/24 via 192.168.10.1
-ip route add 18.195.85.0/24 via 192.168.10.1
-ip route add 18.228.52.0/24 via 192.168.10.1
-ip route add 18.228.67.0/24 via 192.168.10.1
-ip route add 18.231.5.0/24 via 192.168.10.1
-ip route add 185.199.108.0/24 via 192.168.10.1
-ip route add 192.30.252.0/24 via 192.168.10.1
-ip route add 35.159.8.0/24 via 192.168.10.1
-ip route add 52.192.72.0/24 via 192.168.10.1
-ip route add 52.64.108.0/24 via 192.168.10.1
-ip route add 52.69.186.0/24 via 192.168.10.1
-ip route add 52.74.223.0/24 via 192.168.10.1
-ip route add 52.78.231.0/24 via 192.168.10.1
+read -p "Your local router ip:" RouterIp
 
-
-# ip route add 13.114.40.48/24 via 192.168.10.1
-# ip route add 13.229.188.59/24 via 192.168.10.1
-# ip route add 13.234.176.102/24 via 192.168.10.1
-# ip route add 13.234.210.38/24 via 192.168.10.1
-# ip route add 13.236.229.21/24 via 192.168.10.1
-# ip route add 13.237.44.5/24 via 192.168.10.1
-# ip route add 13.250.177.223/24 via 192.168.10.1
-# ip route add 140.82.112.0/24 via 192.168.10.1
-# ip route add 15.164.81.167/24 via 192.168.10.1
-# ip route add 18.194.104.89/24 via 192.168.10.1
-# ip route add 18.195.85.27/24 via 192.168.10.1
-# ip route add 18.228.52.138/24 via 192.168.10.1
-# ip route add 18.228.67.229/24 via 192.168.10.1
-# ip route add 18.231.5.6/24 via 192.168.10.1
-# ip route add 185.199.108.0/24 via 192.168.10.1
-# ip route add 192.30.252.0/24 via 192.168.10.1
-# ip route add 35.159.8.160/24 via 192.168.10.1
-# ip route add 52.192.72.89/24 via 192.168.10.1
-# ip route add 52.64.108.95/24 via 192.168.10.1
-# ip route add 52.69.186.44/24 via 192.168.10.1
-# ip route add 52.74.223.119/24 via 192.168.10.1
-# ip route add 52.78.231.108/24 via 192.168.10.1
-
+ip route add 13.114.40.0/24 via ${RouterIp}
+ip route add 13.229.188.0/24 via ${RouterIp}
+ip route add 13.234.176.0/24 via ${RouterIp}
+ip route add 13.234.210.0/24 via ${RouterIp}
+ip route add 13.236.229.0/24 via ${RouterIp}
+ip route add 13.237.44.0/24 via ${RouterIp}
+ip route add 13.250.177.0/24 via ${RouterIp}
+ip route add 140.82.112.0/24 via ${RouterIp}
+ip route add 15.164.81.0/24 via ${RouterIp}
+ip route add 18.194.104.0/24 via ${RouterIp}
+ip route add 18.195.85.0/24 via ${RouterIp}
+ip route add 18.228.52.0/24 via ${RouterIp}
+ip route add 18.228.67.0/24 via ${RouterIp}
+ip route add 18.231.5.0/24 via ${RouterIp}
+ip route add 185.199.108.0/24 via ${RouterIp}
+ip route add 192.30.252.0/24 via ${RouterIp}
+ip route add 35.159.8.0/24 via ${RouterIp}
+ip route add 52.192.72.0/24 via ${RouterIp}
+ip route add 52.64.108.0/24 via ${RouterIp}
+ip route add 52.69.186.0/24 via ${RouterIp}
+ip route add 52.74.223.0/24 via ${RouterIp}
+ip route add 52.78.231.0/24 via ${RouterIp}
 
 
 # META EXPORTED AT 07apr2020
